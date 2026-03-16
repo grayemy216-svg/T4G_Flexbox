@@ -1,45 +1,37 @@
-.nav{
+nav{
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
-    background-color: aqua;
-    padding: 18px 60px;
+    background-color: rgb(211, 90, 115);
+    padding: 10px;
+    width: 1309px;
+    gap: 100px;
 }
-.hero{
-    height: 500px;
-    background-image: url(images/Flower\ Shop\ Shopify\ Theme\ -\ Minimalist\ Website\ Template\ for\ Florists\ and\ Boutiques.jpg);
-    background-position:center ;
+.links{
     display: flex;
+    justify-self:center;
     align-items: center;
-    justify-content: center;
-    
+    gap: 100px;
+    padding: 10px;
 }
-.Services{
-    padding: 60px 80px;
-    background-color: white;
+.secdiv{
+    display: flex;
+    gap: 60px;
+}
+.About{
+    display: flex;
+    gap: 20px;
+}
+.flower{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 30px 30px 30px 30px; 
     text-align: center;
 }
-.Services h2{
-    font-size: 32px;
-    margin-bottom: 40px;
-    color: black;
+.services{
+    display: flex;
+    gap: 60px;
 }
-.cardcontainer{
-    display:flex;
-    gap: 30px;
+.hero{
+    gap: 200px;
 }
-.card{
-    background-color: white;
-    width: 300px;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow:0 5px 15pxeen, blue, alpha;
-    transition: 0.3s;
-}
-.card img{
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-
- 
