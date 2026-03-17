@@ -35,3 +35,7 @@ nav{
 .hero{
     gap: 200px;
 }
+.floral:hover{
+    transform: translate(-5px);
+    box-shadow:0 6px 16px rgb(110, 168, 168);
+}
